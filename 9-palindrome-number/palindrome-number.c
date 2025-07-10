@@ -10,7 +10,7 @@ bool isPalindrome(int x) {
         rev=rev*10 + x%10;
         x=x/10;
     }
-    if(tmp==rev){   // tmp consits number
+    if(tmp==rev){   // tmp consits original number
         return true;
     }
     return false; 
